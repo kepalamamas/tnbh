@@ -1223,6 +1223,16 @@ hr.solid {
   }
 }
 
+.container-ticket-img {
+  width: 90vw;
+  margin-left: 5vw;
+  height: 70vh;
+  background-image: url("../img/ticket_laptop.png");
+  background-size: contain;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 767px) {
   #schedule .nav-tabs a {
     padding: 8px 50px;
@@ -1238,6 +1248,11 @@ hr.solid {
 
   .align-left {
     margin-left: 10px;
+  }
+
+  .container-ticket-img {
+    background-image: url("../img/ticket_hp.png");
+    background-size: contain;
   }
 }
 
