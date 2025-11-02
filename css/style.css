@@ -41,11 +41,10 @@ h3,
 h4,
 h6,
 p {
-  font-family: "Raleway", sans-serif;
+  font-family: "roadgeekRegular";
   font-weight: 400;
   padding: 0;
-  font-size: 1vw;
-  color: #323232;
+  color: #ffffff;
 }
 
 .card-main {
@@ -934,10 +933,8 @@ hr.solid {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #0a0a0a;
   padding: 0 0 25px 0;
-  color: #eee;
-  font-size: 14px;
+  color: #ffffff;
 }
 
 #footer .footer-top {
@@ -956,7 +953,7 @@ hr.solid {
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  color: #DDE6ED;
+  color: #ffffff;
 }
 
 #footer .footer-top .footer-info img {
@@ -965,18 +962,18 @@ hr.solid {
 }
 
 #footer .footer-top .footer-info p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #DDE6ED;
+  color: #ffffff;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #222636;
-  color: #eee;
+  color: #ffffff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -993,13 +990,14 @@ hr.solid {
 }
 
 #footer .footer-top h4 {
-  font-size: 14px;
-  font-weight: bold;
-  color: #DDE6ED;
+  font-size: 35px;
   text-transform: uppercase;
-  position: relative;
-  padding-bottom: 12px;
-  border-bottom: 2px solid #f82249;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "roadgeekBold";
+  color: #ffffff !important;
+  paint-order: stroke fill;
 }
 
 #footer .footer-top .footer-links {
