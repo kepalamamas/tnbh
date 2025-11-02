@@ -1,19 +1,13 @@
 @font-face {
-  font-family: "tommyLight";
-  src: url("../font/made_tommy_soft/Tommy-Light.otf") format("openType");
+  font-family: "roadgeekRegular";
+  src: url("../font/roadgeek_c.ttf") format("trueType");
   font-weight: lighter;
 }
 
 @font-face {
-  font-family: "tommyRegular";
-  src: url("../font/made_tommy_soft/Tommy-Regular.otf") format("openType");
+  font-family: "roadgeekBold";
+  src: url("../font/roadgeek_em.ttf") format("trueType");
   font-weight: normal;
-}
-
-@font-face {
-  font-family: "tommyBold";
-  src: url("../font/made_tommy_soft/Tommy-Bold.otf") format("openType");
-  font-weight: bold;
 }
 
 body {
@@ -26,7 +20,7 @@ body {
   background-attachment: scroll;
   position: relative;
   color: white;
-  font-family: "tommyRegular";
+  font-family: "roadgeekRegular";
 }
 
 a {
@@ -62,38 +56,9 @@ p {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.ticket-card {
-  overflow: auto;
-  white-space: nowrap;
-  display: flex;
-}
-
 .card {
   display: inline-block;
   white-space: normal;
-}
-
-.ticket-card h4 {
-  font-family: "tommyRegular";
-  font-weight: bolder;
-  margin-bottom: 0;
-  padding: 0;
-  font-size: 1.5vw;
-}
-
-.ticket-card h5 {
-  font-family: "tommyRegular";
-  font-weight: bolder;
-  padding: 0;
-  font-size: 1.6vw;
-}
-
-.ticket-card h6 {
-  font-family: "tommyRegular";
-  font-weight: 400;
-  padding: 0;
-  font-size: 1vw;
-  color: #323232;
 }
 
 h5 {
@@ -161,7 +126,7 @@ h5 {
   text-align: center;
   font-weight: 700;
   margin-bottom: 10px;
-  font-family: "tommyBold";
+  font-family: "roadgeekBold";
   color: #fffced !important;
   paint-order: stroke fill;
 }
@@ -208,19 +173,18 @@ h5 {
   color: #f82249;
 }
 
-#promoter {
+#about {
   padding-top: 60px;
   padding-bottom: 30px;
-  /* background-color: white; */
   width: 100%;
   max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
 
-#promoter p {
+#about p {
   font-size: 1.5vw;
-  font-family: "tommyBold";
+  font-family: "roadgeekRegular";
   color: white;
   margin-bottom: 15px;
 }
@@ -315,7 +279,7 @@ h5 {
   text-decoration: none;
   display: inline-block;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "tommyRegular";
+  font-family: "roadgeekRegular";
   font-weight: 400;
   font-size: 16px;
   outline: none;
@@ -537,8 +501,8 @@ body.mobile-nav-active #mobile-nav-toggle #mobile-nav-toggle2 {
 #intro {
   width: 100%;
   height: 100vh;
-  /* background: url(../img/header_pc.png) top center;
-  background-size: cover; */
+  background: url(../img/header_laptop.png) top center;
+  background-size: cover;
   overflow: hidden;
   position: relative;
 }
