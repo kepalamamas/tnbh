@@ -667,6 +667,16 @@ body.mobile-nav-active #mobile-nav-toggle #mobile-nav-toggle2 {
   text-align: center;
 }
 
+.align-right {
+  float: right;
+  margin-right: 30px;
+}
+
+.align-left {
+  float: left;
+  margin-left: 30px;
+}
+
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
@@ -1221,6 +1231,14 @@ hr.solid {
   #about {
     background: rgb(22, 22, 22);
   }
+
+  .align-right {
+    margin-right: 10px;
+  }
+
+  .align-left {
+    margin-left: 10px;
+  }
 }
 
 @media (max-width: 574px) {
@@ -1260,4 +1278,37 @@ hr.solid {
 
 .btn {
   background-color: #ddd;
+}
+
+#tickets {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-ticket {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 10px;
+}
+
+.ticket-btn {
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.image-ticket {
+  width: 80%;
+  height: auto;
+}
+
+#tickets p {
+  margin-bottom: 0;
 }
