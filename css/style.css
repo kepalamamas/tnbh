@@ -1253,6 +1253,7 @@ hr.solid {
   .container-ticket-img {
     background-image: url("../img/ticket_hp.png");
     background-size: contain;
+    width: 80vw;
   }
 }
 
