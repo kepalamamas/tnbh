@@ -1224,10 +1224,10 @@ hr.solid {
 }
 
 .container-ticket-img {
-  width: 90vw;
-  margin-left: 5vw;
-  height: 70vh;
-  background-image: url("../img/ticket_laptop.png");
+  width: 60vw;
+  margin: auto;
+  height: 60vh;
+  background: url("../img/ticket_laptop.png") center center;
   background-size: contain;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -1317,6 +1317,7 @@ hr.solid {
   cursor: pointer;
   margin-bottom: 20px;
   border: none;
+  color: black;
 }
 
 .image-ticket {
